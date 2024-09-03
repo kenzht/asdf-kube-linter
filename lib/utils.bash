@@ -33,7 +33,7 @@ list_all_versions() {
 }
 
 download_release() {
-  local version="$1"
+  local version="v$1"
   local filename="$2"
 
   local uname_s os url
